@@ -28,22 +28,19 @@ We ran into a good number of challenges while scrapping and training the data an
 
 # Image Gallery
 
+###### Map visualization  
 ![GitHub Logo](https://github.com/sabm0hmayahai/Electro-Maps/blob/master/images/Dashboard.JPG)
 Format: ![Alt Text](url)
-
+###### Dashboard Images
 ![GitHub Logo](https://github.com/sabm0hmayahai/Electro-Maps/blob/master/images/dashboard1.JPG)
-Format: ![Alt Text](url)
 
 
 ![GitHub Logo](https://github.com/sabm0hmayahai/Electro-Maps/blob/master/images/dashboard2.JPG)
-Format: ![Alt Text](url)
 
 
 ![GitHub Logo](https://github.com/sabm0hmayahai/Electro-Maps/blob/master/images/dashboard3.JPG)
-Format: ![Alt Text](url)
 
-
+###### Feedback Platform
 ![GitHub Logo](https://github.com/sabm0hmayahai/Electro-Maps/blob/master/images/feedback.JPG)
-Format: ![Alt Text](url)
 
 Project created at **DevHack 2.0** (36hrs Hackathon at IIT Dharwad, Karnataka) - **Team Sabm0hmayahai** 😄
