@@ -1,0 +1,16 @@
+<% include partials/header %>
+<div class="ui main text container segment">
+	<div class="ui huge header">Freedback / Report us</div>
+	<form class="ui form" action="/feedback" method="POST">
+		<div class="field">
+			<label>Title</label>
+			<input type="text" name="feedback[title]" placeholder="Title">
+		</div>
+		<div class="field">
+			<label>Body Content</label>
+			<textarea name="feedback[body]" placeholder="Describe your problems/suggestions"></textarea>
+		</div>
+		<input class="ui green big basic button" type="submit">
+	</form>
+</div>
+<% include partials/footer %>

@@ -1,0 +1,169 @@
+.bg-header {
+  min-height: 125px;
+  background-color: #5e72e4;
+}
+
+.bg-body {
+  background-color: #f4f5f7;
+}
+
+.main-body {
+  position: fixed;
+  margin: auto auto;
+  width: 88%;
+  height: 95%;
+  background-color: #d7dbd7;
+  z-index: 5;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.main-body .pos-rel {
+  position: relative;
+}
+
+.main-body .mdl-grid {
+  padding: 0;
+}
+
+.main-body .mdl-cell {
+  margin: 0;
+}
+
+#bg-gradient-primary-main {
+  background: linear-gradient(87deg, #060a29 0, #021f94 100%) !important;
+}
+
+.side-panel {
+  border-right: 1px solid #dbdbdb;
+}
+
+.headerr {
+  padding: 10px 15px !important;
+  background-color: #eee;
+  max-height: 60px;
+}
+
+.avatar img {
+  width: 44px;
+  border-radius: 50%;
+}
+
+.mdl-button--icon {
+  height: 44px !important;
+  width: 44px !important;
+  max-width: 44px !important;
+}
+
+.search-contact {
+  background-color: #fbfbfb;
+  /*padding: 10px 15px !important;*/
+}
+
+.search-contact-inner {
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+#search {
+  height: 36px;
+  background-color: #fff;
+  width: 100%;
+  /*padding: 2px 5px !important;*/
+  border-radius: 5px;
+}
+
+#searchfield {
+  background: #fff;
+  margin: 12px 0 0 10px;
+  width: 100%;
+  border: none;
+  padding: 0;
+  font-size: 18px;
+  color: #8198ac;
+}
+
+#searchfield:focus {
+  outline: 0;
+}
+
+.hide {
+  display: none;
+}
+
+.fr {
+  float: right;
+}
+
+.t-a-r {
+  text-align: right;
+}
+
+.search-contact {
+  padding: 6px 12px !important;
+}
+
+.user-list {
+  background-color: #fff;
+  height: 90vh;
+  overflow-y: auto;
+}
+
+.mdl-list {
+  margin: 0;
+}
+
+.mdl-list__item--two-line {
+  text-align: initial !important;
+  cursor: pointer;
+}
+
+.header .title-name {
+  font-size: 18px;
+  margin-left: 12px;
+}
+
+.main-panel {
+  width: calc(66.6666666667% + 16px);
+}
+
+.enter-message {
+  position: absolute;
+  bottom: 0;
+  width: 115vh;
+  background-color: #f5f1ee;
+  padding: 6px 12px;
+}
+
+.enter-message .mdl-cell {
+  /*margin: 8px;*/
+}
+
+.message-text-container {
+  width: 49vw;
+}
+
+.send-button-container {
+  width: calc(8.3333333333% - 8px);
+}
+
+.send-button-container button {
+  float: right;
+}
+
+#messagefield {
+  background: #fff;
+  margin-top: 3px;
+  width: 100%;
+  border: none;
+  padding: 8px;
+  font-size: 18px;
+  color: #8198ac;
+  border-radius: 5px;
+}
+
+#messagefield:focus {
+  outline: 0;
+}
