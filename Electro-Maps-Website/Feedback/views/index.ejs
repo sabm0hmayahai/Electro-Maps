@@ -1,0 +1,35 @@
+<% include partials/header %>
+<div class="ui main text container">
+	<div class="ui huge header">Your Feedback!</div>
+	<div class="ui top attached segment">
+		<div class="ui divided items">
+			<%feedback.find(function(feedback){ %>
+			<div class="item">
+				<div class="content">
+					<a href="/feedback/<%=feedback._id%>" class="header"><%=feedback.title%></a>
+					<div class="meta">
+						<span><%=feedback.created.toDateString()%></span>
+					</div>
+					<div class="description">
+						<% if (typeof feedback.body == 'undefined' ) { %>
+							<p></p>
+						<% } else { %>
+							<p> <%=feedback.body%>...</p>
+						<% } %>
+<!--						<p>< %-feedback.body.substring(0,90)% >...</p>-->
+					</div>			
+					<div class="extra">
+						<a  href="/feedback/<%=feedback._id%>" class="ui animated green basic button" tabindex="0">
+							<div class="visible content">Read More</div>
+							<div class="hidden content">
+								<i class="right arrow icon"></i>
+							</div>
+						</a>
+					</div>				
+				</div>
+			</div>
+			<% }) %>
+		</div>
+	</div>
+</div>
+<% include partials/footer %>
