@@ -1,0 +1,13 @@
+#mapid {
+  height: 700px;
+  width: 100%;
+}
+
+body,
+html {
+  background-image: linear-gradient(
+    rgba(66, 4, 165, 0.699),
+    rgba(57, 30, 75, 0.8)
+  );
+  background-attachment: fixed;
+}
