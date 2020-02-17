@@ -43,4 +43,4 @@ We ran into a good number of challenges while scrapping and training the data an
 #### Feedback Platform
 ![GitHub Logo](https://github.com/sabm0hmayahai/Electro-Maps/blob/master/images/feedback.JPG)
 
-Project created at **DevHack 2.0** (36hrs Hackathon at IIT Dharwad, Karnataka) - **Team Sabm0hmayahai** 😄
+Project created at **DevHack 2.0** (36hrs Hackathon at IIT Dharwad, Karnataka) - **Team sabmohmayahai** 😄
